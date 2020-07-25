@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean id="department"
+		class="com.praveen.spring.core.di.setter.xml.SIDepartment">
+		<property name="deptName" value="Tech" />
+		<property name="deptId" value="1000" />
+	</bean>
+	<bean id="employee"
+		class="com.praveen.spring.core.di.setter.xml.SIEmployee">
+		<property name="empName" value="Praveen" />
+		<property name="empId" value="149903" />
+		<property name="empSal" value="10000000" />
+		<property name="dept" ref="department" />
+	</bean>
+</beans>

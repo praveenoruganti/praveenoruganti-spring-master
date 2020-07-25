@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="condepartment"
+	class="com.praveen.spring.core.di.constructor.xml.CIDepartment">
+	<constructor-arg value="Tech" />
+	<constructor-arg value="100" />
+</bean>
+<bean id="conemployee"
+	class="com.praveen.spring.core.di.constructor.xml.CIEmployee">
+	<constructor-arg value="Praveen" />
+	<constructor-arg value="149903" />
+	<constructor-arg value="10000000" />
+	<constructor-arg ref="condepartment" />
+</bean>
+
+</beans>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean class="com.praveen.spring.core.di.circular.bean.Employee"
+		name="empObjCircular">
+		<property name="addr">
+			<ref bean="addrObjCircular" />
+		</property>
+	</bean>
+	<bean class="com.praveen.spring.core.di.circular.bean.Address"
+		name="addrObjCircular">
+		<property name="emp">
+			<ref bean="empObjCircular" />
+		</property>
+	</bean>
+</beans>

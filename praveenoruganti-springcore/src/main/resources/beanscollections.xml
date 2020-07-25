@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean class="com.praveen.spring.core.collections.bean.Employee"
+		name="emp">
+		<property name="empList"><!-- it will maintain duplicates -->
+			<list>
+				<value>A</value>
+				<value>A</value>
+				<value>A</value>
+				<value>B</value>
+				<value>C</value>
+				<value>D</value>
+			</list>
+		</property>
+		<property name="empSet"><!-- it will not maintain duplicates -->
+			<set>
+				<value>A</value>
+				<value>A</value>
+				<value>A</value>
+				<value>B</value>
+				<value>C</value>
+				<value>D</value>
+			</set>
+		</property>
+		<property name="empMap">
+			<map>
+				<entry>
+					<key>
+						<value>K1</value>
+					</key>
+					<value>V1</value>
+				</entry>
+				<entry key="K2" value="V2" />
+				<entry key="K3">
+					<value>V3</value>
+				</entry>
+				<entry value="V4">
+					<key>
+						<value>K4</value>
+					</key>
+				</entry>
+			</map>
+		</property>
+		<property name="empProperties">
+			<props>
+				<prop key="key1">
+					val1
+				</prop>
+				<prop key="key1">
+					val3
+				</prop>
+				<prop key="key2">
+					val2
+				</prop>
+			</props>
+		</property>
+	</bean>
+</beans>
