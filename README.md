@@ -17,3 +17,5 @@
 - [Spring ORM integration with Hibernate](https://praveenorugantitech.blogspot.com/2019/02/spring-orm-integration-with-hibernate.html){:target="_blank"}
 - [Spring ORM Integration with EclipseLink](https://praveenorugantitech.blogspot.com/2019/02/spring-orm-integration-with-eclipselink.html){:target="_blank"}
 - [Spring Annotations](https://praveenorugantitech.blogspot.com/2019/03/spring-annotations.html){:target="_blank"}
+- [Spring Transaction Management](https://praveenorugantitech.blogspot.com/2019/09/spring-transaction-management.html){:target="_blank"}
+- [Spring Batch](https://praveenorugantitech.blogspot.com/2019/09/spring-batch.html){:target="_blank"}
