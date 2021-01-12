@@ -1,4 +1,4 @@
-# Praveen Oruganti Tech Spring Course
+# Spring Course
 
 - [Introduction](https://praveenorugantitech.blogspot.com/2019/02/spring-introduction.html){:target="_blank"}
 - [Spring Bean Scopes](https://praveenorugantitech.blogspot.com/2019/02/spring-bean-scopes.html){:target="_blank"}
